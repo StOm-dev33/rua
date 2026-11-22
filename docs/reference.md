@@ -1,7 +1,7 @@
 # Station reference
 
-Use [getting started](getting-started.md) for a physical arm or
-[simulation](simulation.md) for a virtual one. The
+Follow [getting started](getting-started.md) to set up a physical arm.
+Use [simulation](simulation.md) to test without hardware. The
 [OpenAPI contract](../schemas/openapi.json) describes the station API.
 
 ## Station server

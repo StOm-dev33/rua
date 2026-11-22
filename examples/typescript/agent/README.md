@@ -1,13 +1,15 @@
 # TypeScript reference agent
 
-Run a model-driven robot loop using the [TypeScript SDK](../../../typescript-client/README.md).
+Run an example robot-use agent built with the
+[TypeScript SDK](../../../typescript-client/README.md). Give it a task and
+the LLM uses robot observations and tools to decide what to do.
 The example supports Anthropic, OpenAI, and Gemini.
 
 ## Run the agent
 
-Start a [simulated station](../../../docs/simulation.md) or
-[physical station](../../../docs/getting-started.md). Use the Node.js version
-in the repository's `.nvmrc` and the pnpm version in `package.json`.
+Start a station with [your arm connected](../../../docs/getting-started.md).
+For testing without hardware, use [MuJoCo](../../../docs/simulation.md). Use the
+Node.js version in the repository's `.nvmrc` and the pnpm version in `package.json`.
 
 Set `OPENAI_API_KEY`, `ANTHROPIC_API_KEY`, or `GEMINI_API_KEY` in the environment
 or `.env`. From the repository root, enable the arm and try a state-only task.

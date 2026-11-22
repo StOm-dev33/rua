@@ -1,7 +1,25 @@
-# Hebbian Robot-Use Agents (RUA)
+<p align="center">
+  <a href="https://hebbianrobotics.com/">
+    <img src="https://raw.githubusercontent.com/Hebbian-Robotics/rua/main/examples/typescript/viewer/public/hebbian-logo.svg" alt="Hebbian Robotics" width="128">
+  </a>
+</p>
 
-Build your own robot-use agents. Give an LLM a goal, camera views
-and robot tools, and let it observe, act and adjust.
+<h1 align="center">Hebbian Robot-Use Agents (RUA)</h1>
+
+<p align="center">Build your own robot-use agents.
+Prompt an LLM and let it observe and act in the real world.</p>
+
+<p align="center">
+  <a href="https://www.ycombinator.com/companies/hebbian-robotics">
+    <img src="https://img.shields.io/badge/Y%20Combinator%20-S26-F26522?style=flat-square&amp;logo=ycombinator&amp;logoColor=white" alt="Y Combinator S26">
+  </a>
+  <a href="https://github.com/Hebbian-Robotics/rua/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="MIT license">
+  </a>
+  <a href="https://discord.gg/vacepQvjmg">
+    <img src="https://img.shields.io/badge/Discord-join%20us-5865F2?style=flat-square&amp;logo=discord&amp;logoColor=white" alt="Join the Discord community">
+  </a>
+</p>
 
 ## Get started
 
@@ -85,6 +103,8 @@ RUA supports single-arm and bimanual SO-101 setups. It also supports
 [learned pose control](docs/hardware.md#learned-policies) on a single arm through
 a compatible ONNX policy supplied by the user.
 
+Use the [MuJoCo example](docs/simulation.md) when you need to test without hardware.
+
 The API can move a real arm. Run it on a trusted network, verify clearance,
 supervise initial motions and keep a physical power cutoff accessible. Support
 the arm before disabling it. Follow the [hardware operating guide](docs/so101-manual-control.md).
@@ -103,9 +123,17 @@ Some reading and projects around robot-use agents:
 - [RAX](https://robot-agent-exploration.com/) — agents learning robot programs through online exploration.
 - [RoboColosseum](https://robocolosseum.ai/) — real-world robot evaluation.
 
-## Contributing and license
+## Community and contributing
 
-See [contributing](CONTRIBUTING.md) for contribution workflow, validation and style. The
-code is released under the [MIT License](LICENSE); robot models and dependencies
+- [Join the Hebbian Robotics Discord](https://discord.gg/vacepQvjmg) to ask questions,
+  share what you’re building, and discuss contributions.
+- [Open a GitHub issue](https://github.com/Hebbian-Robotics/rua/issues) for reproducible
+  bugs and focused feature requests.
+- See the [contribution guide](CONTRIBUTING.md) for how to get involved.
+- Read our [code of conduct](CODE_OF_CONDUCT.md) and use the
+  [security policy](SECURITY.md) to report vulnerabilities privately.
+
+## License
+
+RUA is released under the [MIT License](LICENSE). Robot models and dependencies
 keep their own licenses, listed in [third-party notices](THIRD_PARTY_NOTICES.md).
-To report a security problem, see [security](SECURITY.md).

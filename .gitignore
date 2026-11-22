@@ -2,8 +2,6 @@ node_modules/
 dist/
 .venv/
 __pycache__/
-.env
-.env.*
 !.env.example
 *.pem
 *.key
@@ -44,3 +42,4 @@ __pycache__/
 
 # Generated from the pinned SO-101 release during source setup.
 /robots/so101/
+config.bat

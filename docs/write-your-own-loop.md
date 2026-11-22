@@ -8,9 +8,10 @@ commands and action sequences under a lease.
 - Start with the [Python agent](../examples/python/README.md#run-an-agent) or
   [TypeScript agent](../examples/typescript/agent/README.md). The
   [Rust SDK](../sdk/README.md#model-facing-tools) provides the same model tools.
-- Learn direct control with [`hello_robot.py`](../examples/python/hello_robot.py),
-  which exercises the same SDK on a [physical arm](getting-started.md) or in
-  [MuJoCo](simulation.md).
+- Use the same SDK for direct control with
+  [`hello_robot.py`](../examples/python/hello_robot.py) on a
+  [physical arm](getting-started.md). You can test the example in
+  [MuJoCo](simulation.md) without hardware.
 
 The examples below use Python. See the [TypeScript SDK guide](../typescript-client/README.md#write-a-model-loop)
 for its equivalent workflow and [model output](model-output.md) for units,

@@ -1,7 +1,8 @@
 # Python examples
 
-Start a [physical station](../../docs/getting-started.md) or
-[simulated station](../../docs/simulation.md). From the repository root:
+Start a station with [your arm connected](../../docs/getting-started.md).
+For testing without hardware, use a [simulated station](../../docs/simulation.md).
+From the repository root:
 
 ```sh
 cd examples/python

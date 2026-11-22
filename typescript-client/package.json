@@ -23,7 +23,7 @@
   "scripts": {
     "test": "vitest run --root .. typescript-client/tests",
     "typecheck": "tsrs --noEmit --fast -p tsconfig.json",
-    "build": "node ../scripts/build-client.ts",
+    "build": "node init && node ../scripts/build-client.ts",
     "prepack": "pnpm run build"
   },
   "dependencies": {
